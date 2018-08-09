@@ -8,10 +8,20 @@ body {
 .navbar {
     padding: 0px;
     height: 75px;
+    background-color: #ffffff !important;
+    border-style: solid;
+    border-top: .05 px;
+    border-color: #cccccc !important;
+
 }
 .nav-item {
     height: 75px !important;
-    padding-top:  25px;
+    padding-top:  20px;
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
    
 }
 
@@ -22,7 +32,7 @@ body {
 .navbar-brand {
     float: left;
     margin-left: 8%;
-    background-color: teal;
+    background-color: #4aaaa5;
     color: white !important;
     width: 300px;
     height: 75px;
@@ -41,9 +51,14 @@ body {
 
 
 #content {
-    /* margin: auto; */
+    margin: auto;
     margin-top: 10%;
-    margin-left: 8%;
+    /* margin-top: 10%;
+    margin-left: 8%; */
+    max-width: 960px !important;
+    margin-bottom: 500px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
 .img {
@@ -60,11 +75,16 @@ padding-left: 30px;
 background-color: white;
     width: 960px !important;
 padding-bottom: 25px;
+border-style: solid;
+border: 5px;
+border-color: #dddddd;
+margin-bottom: 5%;
+
 }
 
 h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: teal;
+    color: #4aaaa5;
 }
 
 
@@ -76,3 +96,71 @@ h4 {
     margin-top: 1em;
     margin-bottom: 1.5em;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #666666;
+    color: white;
+    margin-top: 5%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-style: solid;
+    border: 10px 0px;
+    border-color: #cccccc !important;
+
+  }
+
+  .container {
+      height: 100px;
+  }
+
+  .btn {
+      background-color: #4aaaa5;
+      border: none;
+  }
+
+  #portfolio-img {
+      width: 250px !important;
+      height: 200px !important;
+
+  }
+
+  .card-img-top {
+    width: 250px !important;
+    height: 200px !important;
+    /* margin-right: 20px !important; */
+
+  }
+
+  #ill {
+    background-size: contain;
+    background-position: center;
+  }
+
+  .card {
+      margin: 10% 0%;
+      margin-right: 5%;
+  }
+
+  .card-title {
+    background-color: #4aaaa5;
+    width: 250px;
+    height: 50px;
+    margin-top: 60%;
+    margin-left: -20px;
+    color: white;
+    text-align: center;
+    padding-top:15px;
+
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #777777;
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
